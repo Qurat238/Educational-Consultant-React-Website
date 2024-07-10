@@ -1,0 +1,86 @@
+.whatWeDoContainer{
+    display: flex;
+    align-items: center;
+    background-color: #283148;
+    padding: 2rem;
+}
+.whatWeDoImageContainer{
+    flex-basis: 40%;
+}
+.whatWeDoImageContainer > img{
+    width: 30rem;
+}
+.whatWeDoContentContainer{
+    flex-basis: 60%;
+}
+.whatWeDoContentContainer > h2{
+    font-size: 35px;
+    color: white;
+}
+.whatWeDoContentContainer .whatWeDoText{
+    font-size: 18px;
+    color: white;
+}
+
+
+@media (max-width:1115px) {
+    .whatWeDoContainer{
+        gap: 4rem;
+    }
+    .whatWeDoImageContainer{
+        flex-basis: 30%;
+    }
+    .whatWeDoImageContainer > img{
+        width: 22rem;
+    }
+    .whatWeDoContentContainer{
+        flex-basis: 65%;
+    }
+}
+
+@media (max-width:858px) {
+    .whatWeDoImageContainer > img{
+        width: 20rem;
+        height: 22rem;
+        object-fit: cover;
+    }
+}
+
+@media (max-width:775px) {
+    .whatWeDoContentContainer > h2{
+        font-size: 1.7rem;
+    }
+    .whatWeDoContentContainer .whatWeDoText{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:725px) {
+    .whatWeDoImageContainer > img{
+        width: 15rem;
+    }
+}
+
+@media (max-width:670px) {
+    .whatWeDoContainer{
+        margin-top: 5rem;
+    }
+}
+
+@media (max-width:625px) {
+    .whatWeDoContainer{
+        flex-direction: column;
+    }
+    .whatWeDoImageContainer > img{
+        width: 30rem;
+    }
+}
+
+@media (max-width:450px) {
+    .whatWeDoContentContainer > h2{
+        font-size: 1.3rem;
+    }
+    .whatWeDoContentContainer .whatWeDoText{
+        font-size: 0.95rem;
+    }
+}

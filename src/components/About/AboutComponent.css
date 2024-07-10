@@ -1,0 +1,207 @@
+.aboutSection{
+    height: 65.9vh;
+    display: flex;
+    background-color: #FF9B42;
+}
+.aboutContentContainer{
+    flex-basis: 50%;
+    padding: 3rem;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+.aboutHeading{
+    font-weight: 900;
+    -webkit-text-stroke: 0.1vw #FF9B42;
+    font-size: 2.5rem;
+    margin: 0;
+    color: #283148;
+    line-height: 1.2;
+    font-family: "Poppins", sans-serif;
+}
+.aboutText{
+    color: #283148;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+.aboutImageContainer{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+}
+.aboutImage{
+    width: 45rem;
+    height: 25rem;
+}
+
+@media (max-width:1115px){
+    .aboutImage{
+        width: 35rem;
+        height: 25rem;
+    }
+    .aboutHeading{
+        font-size: 2.1rem;
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width:1100px){
+    .aboutImage{
+        width: 27rem;
+        height: 25rem;
+    }
+    .aboutImageContainer{
+        flex-basis: 40%;
+    }
+    .aboutContentContainer{
+        flex-basis: 60%;
+    }
+}
+
+@media (max-width:972px){
+    .aboutSection{
+        height: 55vh;
+    }
+    .aboutImageContainer{
+        flex-basis: 30%;
+    }
+    .aboutContentContainer{
+        flex-basis: 70%;
+    }
+    .aboutImage{
+        width: 23rem;
+        height: 21rem;
+    }
+    .aboutHeading{
+        font-size: 2rem;
+    }
+    .aboutText{
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width:887px){
+    .aboutHeading{
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width:846px){
+    .aboutHeading{
+        font-size: 1.6rem;
+    }
+    .aboutText{
+        font-size: 0.75rem;
+    }
+}
+
+@media (max-width:806px){
+    .aboutSection{
+        height: 50vh;
+    }
+    .aboutImage{
+        width: 20rem;
+        height: 19rem;
+    }
+    .aboutHeading{
+        font-size: 1.4rem;
+    }
+    .aboutText{
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width:717px){
+    .aboutImage{
+        width: 18rem;
+        height: 19rem;
+    }
+    .aboutHeading{
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width:665px){
+    .aboutImage{
+        width: 15rem;
+        height: 19rem;
+    }
+}
+
+@media (max-width:640px){
+    .aboutSection{
+        height: 43vh;
+    }
+    .aboutContentContainer{
+        padding: 1rem;
+    }
+    .aboutImage{
+        width: 15rem;
+        height: 16.3rem;
+    }
+    .aboutHeading{
+        font-size: 1.2rem;
+        margin-top: 0;
+    }
+    .aboutText{
+        font-size: 0.6rem;
+    }
+}
+
+@media (max-width:555px){
+    .aboutSection{
+        flex-direction: column;
+        height: 85vh;
+    }
+    .aboutImage{
+        width: 34rem;
+        height: 16.3rem;
+    }
+    .aboutHeading{
+        font-size: 1.8rem;
+        margin-top: 0;
+    }
+    .aboutText{
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width:414px){
+    .aboutHeading{
+        font-size: 1.6rem;
+    }
+    .aboutText{
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width:374px){
+    .aboutHeading{
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width:333px){
+    .aboutSection{
+        height: 120vh;
+    }
+    .aboutHeading{
+        font-size: 1.1rem;
+    }
+    .aboutImage{
+        height: 22rem;
+    }
+}
+
+@media (max-width:272px){
+    .aboutHeading{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:252px){
+    .aboutHeading{
+        font-size: 0.9rem;
+    }
+}

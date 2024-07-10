@@ -1,0 +1,124 @@
+.blog{
+    flex: 0 0 30%;
+    margin-top: 3rem;
+    max-width: 30%;
+    min-height: 70vh;
+    background-color: #FF9B42;
+    border-radius: 2rem;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.blogImageContainer{
+    position: relative;
+    height: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blogImageContainer h1{
+    position: absolute;
+    width: 90%;
+    text-align: center;
+    margin-left: 1rem;
+    color: white;
+}
+.blogImage{
+    width: 100%;
+    height: 12rem;
+    border-bottom: 0.3rem solid #283148;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+.blogContent{
+    padding: 0 1rem;
+    background-color: #FF9B42;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1.5rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+.blogContent p{
+    width: 100%;
+    font-weight: 900;
+    color: #283148;
+    font-size: 15px;
+    bottom: 0;
+}
+.blogReadBtn{
+    /* border: none; */
+    border: 0.2rem solid #283148;
+    /* background-color: #283148; */
+    background-color: transparent;
+    font-size: 18px;
+    padding: 0.7rem;
+    border-radius: 0.7rem;
+    /* color: white; */
+    color: #283148;
+    font-weight: 600;
+    width: 45%;
+}
+.blogReadBtn:hover{
+    cursor: pointer;
+}
+.blogBtn{
+    position: absolute;
+    right: 4rem;
+    display: flex;
+    align-items: center;
+    top: 4rem;
+    gap: 0;
+    transition: 0.5s;
+    color: white;
+}
+.blogBtnText{
+    border: none;
+    background-color: #283148;
+    font-size: 16px;
+    font-weight: 900;
+    color: white;
+}
+.blogBtnText:hover{
+    cursor: pointer;
+    font-size: 18px;
+}
+
+@media (max-width:1115px) {
+    .blog{
+        flex: 0 0 32%;
+        max-width: 35%;
+    }
+    .blogReadBtn{
+        width: 75%;
+    }
+}
+
+@media (max-width:915px) {
+    .blog{
+        flex: 0 0 48.5%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width:625px) {
+    .blog{
+        flex: 0 0 98%;
+        max-width: 99%;
+    }
+}
+
+@media (max-width:450px) {
+    .blog{
+        flex: 0 0 98%;
+        max-width: 99%;
+    }
+    .blogImageContainer h1{
+        font-size: 1.4rem;
+    }
+    .blogContent p{
+        font-size: 0.95rem;
+    }
+}

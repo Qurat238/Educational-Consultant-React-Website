@@ -1,0 +1,156 @@
+.servicesContainer{
+    padding: 2rem;
+    padding-bottom: 5rem;
+    width: 100vw;
+}
+.servicesContainer > h1{
+    font-size: 3.2rem;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    color: #283148;
+    margin-bottom: 2rem;
+}
+.servicesText{
+    font-size: 1rem;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.services{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3rem;
+    width: 90%;
+    margin: auto;
+    opacity: 0;
+    transform: translateX(-200px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.services.visible{
+    opacity: 1;
+    transform: translateX(0);
+}
+.service{
+    background-color: #283148;
+    padding: 1rem 2rem;
+    width: 40rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    color: white;
+    font-weight: 900;
+}
+
+@media (max-width:972px){
+    .servicesContainer > h1{
+        font-size: 2.2rem;
+    }
+    .servicesText{
+        font-size: 0.8rem;
+    }
+    .service{
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width:877px){
+    .services{
+        gap: 1rem;
+    }
+    .service{
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width:747px){
+    .services{
+        gap: 0.5rem;
+    }
+    .service{
+        font-size: 0.6rem;
+    }
+}
+
+@media (max-width:670px){
+    .servicesContainer{
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .services{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .service{
+        width: 32rem;
+    }
+}
+
+@media (max-width:595px){
+    .servicesContainer{
+        height: 90vh;
+    }
+    .services{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .service{
+        width: 28rem;
+    }
+}
+
+@media (max-width:530px){
+    .service{
+        width: 24rem;
+    }
+}
+
+@media (max-width:465px){
+    .service{
+        width: 20rem;
+    }
+    .servicesContainer > h1{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width:395px){
+    .services{
+        transform: translateX(-100px);
+    }
+    .service{
+        width: 17rem;
+    }
+}
+
+@media (max-width:345px){
+    .servicesContainer{
+        height: 100vh;
+    }
+    .servicesContainer > h1{
+        font-size: 1.6rem;
+    }
+    .services{
+        transform: translateX(-100px);
+    }
+    .service{
+        width: 15rem;
+    }
+    .servicesText{
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width:320px){
+    .service{
+        width: 12rem;
+    }
+}
+
+@media (max-width:260px){
+    .service{
+        width: 10rem;
+        font-size: 0.5rem;
+    }
+}

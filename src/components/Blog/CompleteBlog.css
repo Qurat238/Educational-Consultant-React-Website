@@ -1,0 +1,81 @@
+.completeBlogContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.completeBlogFirstSection{
+    flex-basis: 70%;
+    padding: 2rem;
+    padding-top: 1rem;
+    width: 70%;
+
+}
+.completeImageContainer{
+    width: 100%;
+    height: 25rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.completeImageContainer .completeImage{
+    width: 55rem;
+    height: 25rem;
+}
+.completeImageContainer h1{
+    position: absolute;
+    font-size: 45px;
+    color: white;
+    width: 80%;
+    text-align: center;
+}
+.tableOfContentContainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+.tableOfContentHeading{
+    background-color: #283148;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tableOfContentHeading h2,
+.tableOfContentHeading svg{
+    color: white;
+}
+.tableOfContentList > ul{
+    margin-top: -0.1rem;
+    background-color: #FF9B42;
+    padding: 1rem 2rem;
+}
+.tableOfContentList > ul > li{
+    font-size: 15px;
+    color: #283148;
+    list-style-type: decimal;
+}
+.completeBlogSection p{
+    font-size: 15px;
+}
+.completeBlogSection h1{
+    font-size: 28px;
+    color: #283148;
+}
+.completeBlogSection h2{
+    font-size: 22px;
+    color: #283148;
+}
+
+@media (max-width:875px) {
+    .completeBlogFirstSection{
+        width: 100%;
+    }
+}
+
+@media (max-width:450px) {
+    .completeImageContainer h1{
+        font-size: 2rem;
+    }
+}

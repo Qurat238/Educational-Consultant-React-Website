@@ -1,0 +1,46 @@
+.fAQContent .heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #283148;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    opacity: 0;
+    transform: translateX(-200px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.fAQContent .heading.visible{
+    opacity: 1;
+    transform: translateX(0);
+}
+.fAQContent .heading h3{
+    color: white;
+}
+.fAQContent .heading svg{
+    color: #fff;
+}
+.fAQContent .heading svg:hover{
+    cursor: pointer;
+    scale: 1.5;
+}
+.fAQContent p{
+    background-color: #FF9B42;
+    padding: 1rem;
+    font-weight: 600;
+    margin-top: -1rem;
+    color: #283148;
+    display: none;
+} 
+
+@media (max-width:555px) {
+    .fAQContent .heading{
+        transform: translateX(-100px);
+    }
+}
+
+@media (max-width:450px) {
+    .fAQSection p,
+    .fAQSection h3{
+        font-size: 0.95rem;
+    } 
+}

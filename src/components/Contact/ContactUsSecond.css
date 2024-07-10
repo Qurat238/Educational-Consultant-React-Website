@@ -1,0 +1,83 @@
+.contactUs{
+    background-color: #283148;
+    height: auto;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+}
+.contactUsImageContainer{
+    flex-basis: 50%;
+}
+.contactUsImage{
+    width: 550px;
+}
+.contactUsContentContainer h1{
+    font-weight: 900;
+    font-size: 40px;
+    margin: 0;
+    line-height: 1.2;
+    font-family: "Poppins", sans-serif;
+    color: #FF9B42;
+}
+.contactUsContentContainer p{
+    color: white;
+    width: 80%;
+    font-size: 15px;
+    margin-bottom: 2rem;
+}
+.socialMediaIcons{
+    display: flex;
+    gap: 0.5rem;
+}
+.socialMediaIcons .subIconBtn{
+    border-radius: 0.3rem;
+    border: none;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #FF9B42;
+    transition: 0.5s;
+}
+.socialMediaIcons .subIconBtn:hover{
+    cursor: pointer;
+    background-color: transparent;
+    border: 0.1rem solid #FF9B42;
+}
+.socialMediaIcons .subIconBtn svg{
+    color: #283148;
+    transition: 0.5s;
+    font-size: 40px;
+}
+.socialMediaIcons .subIconBtn:hover svg{
+    color: #FF9B42;
+}
+
+
+@media (max-width:997px) {
+    .contactUsImageContainer{
+        flex-basis: 40%;
+    }
+    .contactUsImage{
+        width: 450px;
+    }
+    .contactUsContentContainer p{
+        width: 100%;
+    }
+}
+
+@media (max-width:780px) {
+    .contactUsContentContainer h1{
+        font-size: 2rem;
+    }
+    .contactUsImage{
+        width: 300px;
+    }
+}
+
+@media (max-width:625px) {
+    .contactUs{
+        flex-direction: column;
+    }
+    .contactUsImage{
+        width: 600px;
+    }
+}
