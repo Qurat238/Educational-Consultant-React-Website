@@ -1,0 +1,58 @@
+.mainVisionContainer{
+    width: 100%;
+}
+.visionContainer{
+    height: auto;
+    padding: 2rem 1rem;
+    background-color: #283148;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.visionContainer > h1{
+    font-size: 3rem;
+    text-align: center;
+    color: #FF9B42;
+    text-transform: uppercase;
+}
+
+.visionContainer > p{
+    font-size: 1.35rem;
+    color: white;
+    width: 90%;
+    text-align: center;
+}
+
+@media (max-width:1115px) {
+    .visionContainer > h1{
+        font-size: 2.3rem;
+    }
+    .visionContainer > p{
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width:1000px) {
+    .visionContainer > h1{
+        font-size: 2rem;
+    }
+    .visionContainer > p{
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width:890px) {
+    .visionContainer > h1{
+        font-size: 1.8rem;
+    }
+    .visionContainer > p{
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width:803px) {
+    .visionContainer > h1{
+        font-size: 1.6rem;
+    }
+}

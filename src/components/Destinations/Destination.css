@@ -1,0 +1,36 @@
+.destinationContainer{
+    height: 50vh;
+    background-color: #283148;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.destinationContainer > h1{
+    font-size: 3rem;
+    color: #FF9B42;
+    text-transform: uppercase;
+}
+
+@media (max-width:1115px) {
+    .destinationContainer > h1{
+        font-size: 2.3rem;
+    }
+}
+
+@media (max-width:1000px) {
+    .destinationContainer > h1{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width:890px) {
+    .destinationContainer > h1{
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width:803px) {
+    .destinationContainer > h1{
+        font-size: 1.6rem;
+    }
+}

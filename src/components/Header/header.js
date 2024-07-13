@@ -31,25 +31,25 @@ const Header = () => {
                     <li className='list'>
                         <a className='headerlink' href='/'>SERVICES</a>
                         <ul className='dropdown'>
-                            <li className='list'><a className='headerlink' href='/'>STUDY</a></li>
-                            <li className='list'><a className='headerlink' href='/'>VISIT</a></li>
-                            <li className='list'><a className='headerlink' href='/'>IMMIGRATION</a></li>
+                            <li className='list'><a className='headerlink' href='/service/study'>STUDY</a></li>
+                            <li className='list'><a className='headerlink' href='/service/visit'>VISIT</a></li>
+                            <li className='list'><a className='headerlink' href='/service/immigration'>IMMIGRATION</a></li>
                         </ul>
                     </li>
                     <li className='list'>
                         <a className='headerlink' href='/'>VISION</a>
                         <ul className='dropdown'>
-                            <li className='list'><a className='headerlink' href='/'>VISION STATEMENT</a></li>
+                            <li className='list'><a className='headerlink' href='/vision/statement'>VISION STATEMENT</a></li>
                         </ul>
                     </li>
                     <li className='list'>
                         <a className='headerlink' href='/'>DESTINATIONS</a>
                         <ul className='dropdown1'>
-                            <li className='list'><a className='headerlink' href='/'>UK</a></li>
-                            <li className='list'><a className='headerlink' href='/'>AUSTRALIA</a></li>
-                            <li className='list'><a className='headerlink' href='/'>USA</a></li>
-                            <li className='list'><a className='headerlink' href='/'>EUROPE</a></li>
-                            <li className='list'><a className='headerlink' href='/'>TURKEY</a></li>
+                            <li className='list'><a className='headerlink' href='/destination/uk'>UK</a></li>
+                            <li className='list'><a className='headerlink' href='/destination/australia'>AUSTRALIA</a></li>
+                            <li className='list'><a className='headerlink' href='/destination/usa'>USA</a></li>
+                            <li className='list'><a className='headerlink' href='/destination/europe'>EUROPE</a></li>
+                            <li className='list'><a className='headerlink' href='/destination/turkey'>TURKEY</a></li>
                         </ul>
                     </li>
                     <li className='list'><a className='headerlink' href='/about'>ABOUT US</a></li>
@@ -73,25 +73,25 @@ const Header = () => {
                         <div>
                             <div className='smallScreenLink'><a href='/'>SERVICES</a></div>
                             <div className='smallScreenSubLinksContainer1'>
-                                <div><a href='/' className='smallScreenSubLink'>STUDY</a></div>
-                                <div><a href='/' className='smallScreenSubLink'>VISIT</a></div>
-                                <div><a href='/' className='smallScreenSubLink'>IMMIGRATION</a></div>
+                                <div><a href='/service/study' className='smallScreenSubLink'>STUDY</a></div>
+                                <div><a href='/service/visit' className='smallScreenSubLink'>VISIT</a></div>
+                                <div><a href='/service/immigration' className='smallScreenSubLink'>IMMIGRATION</a></div>
                             </div>
                         </div>
                         <div>
                             <div className='smallScreenLink'><a className='smallScreenSubLink' href='/'>VISION</a></div>
                             <div  className='smallScreenSubLinksContainer2'>
-                                <div><a href='/'>VISION STATEMENT</a></div>
+                                <div><a href='/vision/statement'>VISION STATEMENT</a></div>
                             </div>
                         </div>
                         <div>
                             <div className='smallScreenLink'><a href='/'>DESTINATIONS</a></div>
                             <div  className='smallScreenSubLinksContainer'>
-                                <div><a href='/' className='smallScreenSubLink'>UK</a></div>
-                                <div><a href='/' className='smallScreenSubLink'>AUSTRALIA</a></div>
-                                <div><a href='/' className='smallScreenSubLink small'>USA</a></div>
-                                <div><a href='/' className='smallScreenSubLink'>EUROPE</a></div>
-                                <div><a href='/' className='smallScreenSubLink'>TURKEY</a></div>
+                                <div><a href='/destination/uk' className='smallScreenSubLink'>UK</a></div>
+                                <div><a href='/destination/australia' className='smallScreenSubLink'>AUSTRALIA</a></div>
+                                <div><a href='/destination/usa' className='smallScreenSubLink small'>USA</a></div>
+                                <div><a href='/destination/europe' className='smallScreenSubLink'>EUROPE</a></div>
+                                <div><a href='/destination/turkey' className='smallScreenSubLink'>TURKEY</a></div>
                             </div>
                         </div>
                         <div className='smallScreenLink2'><a href='/about'>ABOUT US</a></div>

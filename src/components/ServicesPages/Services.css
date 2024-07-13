@@ -1,0 +1,40 @@
+.mainServicesContainer{
+    width: 100%;
+}
+.container{
+    height: 50vh;
+    background-color: #283148;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container > h1{
+    font-size: 3rem;
+    color: #FF9B42;
+    text-transform: uppercase;
+}
+
+
+@media (max-width:1115px) {
+    .container > h1{
+        font-size: 2.3rem;
+    }
+}
+
+@media (max-width:1000px) {
+    .container > h1{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width:890px) {
+    .container > h1{
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width:803px) {
+    .container > h1{
+        font-size: 1.6rem;
+    }
+}
