@@ -3,6 +3,7 @@ a{
 }
 .headers{
     width: 100vw;
+    max-width: 100%;
 }
 .headerContainer{
     display: flex;
