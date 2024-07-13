@@ -1,5 +1,5 @@
 .blogsSection{
-    padding: 3rem;
+    padding: 3rem 0.5rem;
     position: relative;
     background-color: #283148;
     width: 100vw;
@@ -30,17 +30,11 @@
     opacity: 1;
 }
 .leftBlogArrow{
-    position: absolute;
-    left: 2rem;
-    top: 55vh;
     background-color: #283148;
     border: none;
     cursor: pointer;
 }
 .rightBlogArrow{
-    position: absolute;
-    right: 3rem;
-    top: 55vh;
     background-color: #283148;
     border: none;
     cursor: pointer;
@@ -50,25 +44,11 @@
     .blogs{
         width: 90vw;
     }
-    .leftBlogArrow{
-        left: -0.2rem;
-        top:55vh;
-    }
-    .rightBlogArrow{
-        right: 0.5rem;
-        top: 55vh;
-    }
 }
 
 @media (max-width:1115px) {
     .blogHeading{
         font-size: 2.3rem;
-    }
-    .leftBlogArrow{
-        top:65vh;
-    }
-    .rightBlogArrow{
-        top: 65vh;
     }
 }
 
@@ -77,23 +57,11 @@
     .blogHeading{
         font-size: 2rem;
     }
-    .leftBlogArrow{
-        top:55vh;
-    }
-    .rightBlogArrow{
-        top: 55vh;
-    }
 }
 
 @media (max-width:890px) {
     .blogHeading{
         font-size: 1.8rem;
-    }
-    .leftBlogArrow{
-        left: -0.8rem;
-    }
-    .rightBlogArrow{
-        right: -0.3rem;
     }
 }
 
@@ -103,56 +71,17 @@
     }
 }
 
-@media (max-width:790px) {
+@media (max-width:880px) {
     .blogs{
         width: 80vw;
         gap: 2.3%;
     }
-    .leftBlogArrow{
-        left: 1rem;
-        top: 50vh;
-    }
-    .rightBlogArrow{
-        right: 1.5rem;
-        top: 50vh;
-    }
 }
 
-@media (max-width:630px) {
-    .leftBlogArrow{
-        left: 0.1rem;
-    }
-    .rightBlogArrow{
-        right: 0.7rem;
-    }
-}
 
-@media (max-width:599px) {
+@media (max-width:650px) {
     .blogs{
         gap: 2.1%;
     }
 }
 
-@media (max-width:500px) {
-    .leftBlogArrow{
-        left: -0.6rem;
-    }
-    .rightBlogArrow{
-        right: 0.1rem;
-    }
-}
-
-@media (max-width:430px) {
-    .blogs{
-        margin-left: -0.8rem;
-    }
-}
-
-@media (max-width:420px) {
-    .leftBlogArrow{
-        left: -0.9rem;
-    }
-    .rightBlogArrow{
-        right: -0.4rem;
-    }
-}

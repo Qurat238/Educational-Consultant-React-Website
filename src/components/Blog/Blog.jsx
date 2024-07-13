@@ -98,15 +98,19 @@ const Blog = () => {
 
   return (
     <div className="blogsSection">
-      <button className="leftBlogArrow" onClick={backHandler}>
+      
+        
+        <h1 className="blogHeading">BLOGS</h1>
+        <div className='container'>
+        <button className="leftBlogArrow" onClick={backHandler}>
           <KeyboardArrowLeftIcon className="icon" />
         </button>
+        <div id='blogs' className={`blogs ${isVisible ? "visible" : ""}`} ref={sectionRef}>
+          {blogs && blogs.map((blog) => <BlogComponent key={blog.id} blog={blog}/>)}
+        </div>
         <button className="rightBlogArrow" onClick={nextHandler}>
           <KeyboardArrowRightIcon className="icon" />
         </button>
-        <h1 className="blogHeading">BLOGS</h1>
-        <div id='blogs' className={`blogs ${isVisible ? "visible" : ""}`} ref={sectionRef}>
-          {blogs && blogs.map((blog) => <BlogComponent key={blog.id} blog={blog}/>)}
         </div>
       </div>
   )

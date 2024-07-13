@@ -76,15 +76,19 @@ const Testimonial = () => {
 
   return (
     <div className="testimonialsSection">
+        
+        
+        <h1 className="testimonialsHeading">Testimonials</h1>
+        <div className="container">
         <button className="leftArrow" onClick={backHandler}>
           <KeyboardArrowLeftIcon className="icon" />
         </button>
+        <div className="testimonialsContainer" id="testimonialsContainer">
+          {testimonials && testimonials.map((testimonial) => <TestimonialComponent key={testimonial.name} testimonial={testimonial}/>)}
+        </div>
         <button className="rightArrow" onClick={nextHandler}>
           <KeyboardArrowRightIcon className="icon" />
         </button>
-        <h1 className="testimonialsHeading">Testimonials</h1>
-        <div className="testimonialsContainer" id="testimonialsContainer">
-          {testimonials && testimonials.map((testimonial) => <TestimonialComponent key={testimonial.name} testimonial={testimonial}/>)}
         </div>
       </div>
   );

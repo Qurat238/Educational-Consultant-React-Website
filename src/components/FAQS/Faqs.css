@@ -1,7 +1,7 @@
 .fAQSection{
     background-color: white;
-    min-height: 100vh;
     padding: 2rem;
+    height: auto;
 }
 .fAQSection h1{
     font-weight: 900;

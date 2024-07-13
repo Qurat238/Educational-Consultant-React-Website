@@ -118,7 +118,7 @@
     }
 }
 
- @media (max-width:790px) {
+ @media (max-width:880px) {
     .blogImageContainer{
         height: 11rem;
     }
@@ -128,7 +128,7 @@
     }
 }
 
-@media (max-width:599px) {
+@media (max-width:650px) {
     .blog {
         flex: 0 0 98%;
         max-width: 98%;
