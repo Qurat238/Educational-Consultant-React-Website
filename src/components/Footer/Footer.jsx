@@ -37,8 +37,8 @@ const Footer = () => {
     <div className="footerSection">
       <div className="mainFooterSection">
         <div className="footerFirstSection">
+          <div className="footertwoSectionsContainer">
           <div className="footerContentContainer">
-            <h1>Paramount Consultants</h1>
             <p>
               Paramount Consultants stands out as one of the fastest-growing
               education and career networks in Pakistan.
@@ -47,6 +47,7 @@ const Footer = () => {
           </div>
           <div className="footerMapContainer">
             <img src={map} alt="map" className="mapImage" />
+          </div>
           </div>
           <div className="footerQuickLinksContainer">
             <h2>Get In Touch</h2>

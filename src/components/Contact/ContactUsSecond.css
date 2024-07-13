@@ -9,11 +9,11 @@
     flex-basis: 50%;
 }
 .contactUsImage{
-    width: 550px;
+    width: 40vw;
 }
 .contactUsContentContainer h1{
     font-weight: 900;
-    font-size: 40px;
+    font-size: 3rem;
     margin: 0;
     line-height: 1.2;
     font-family: "Poppins", sans-serif;
@@ -22,8 +22,9 @@
 .contactUsContentContainer p{
     color: white;
     width: 80%;
-    font-size: 15px;
+    font-size: 1.35rem;
     margin-bottom: 2rem;
+    text-align: justify;
 }
 .socialMediaIcons{
     display: flex;
@@ -32,10 +33,13 @@
 .socialMediaIcons .subIconBtn{
     border-radius: 0.3rem;
     border: none;
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 3.5rem;
+    height: 3.5rem;
     background-color: #FF9B42;
     transition: 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .socialMediaIcons .subIconBtn:hover{
     cursor: pointer;
@@ -45,39 +49,62 @@
 .socialMediaIcons .subIconBtn svg{
     color: #283148;
     transition: 0.5s;
-    font-size: 40px;
+    font-size: 4rem;
 }
 .socialMediaIcons .subIconBtn:hover svg{
     color: #FF9B42;
 }
 
-
-@media (max-width:997px) {
-    .contactUsImageContainer{
-        flex-basis: 40%;
-    }
-    .contactUsImage{
-        width: 450px;
+@media (max-width:1115px) {
+    .contactUsContentContainer h1{
+        font-size: 2.3rem;
     }
     .contactUsContentContainer p{
-        width: 100%;
+        font-size: 1.1rem;
+    }
+    .socialMediaIcons .subIconBtn{
+        width: 3rem;
+        height: 3rem;
+    }
+    .socialMediaIcons .subIconBtn svg{
+        font-size: 3rem;
+    }
+}
+
+@media (max-width:1000px) {
+    .contactUsContentContainer h1{
+        font-size: 2rem;
+    }
+    .contactUsContentContainer p{
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width:890px) {
+    .contactUsContentContainer h1{
+        font-size: 1.8rem;
+    }
+    .contactUsContentContainer p{
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width:803px) {
+    .contactUsContentContainer h1{
+        font-size: 1.6rem;
     }
 }
 
 @media (max-width:780px) {
-    .contactUsContentContainer h1{
-        font-size: 2rem;
-    }
-    .contactUsImage{
-        width: 300px;
-    }
-}
-
-@media (max-width:625px) {
     .contactUs{
         flex-direction: column;
     }
+    .contactUsContentContainer p{
+        width: 100%;
+    }
     .contactUsImage{
-        width: 600px;
+        width: 80vw;
+        height: 50vh;
     }
 }
+

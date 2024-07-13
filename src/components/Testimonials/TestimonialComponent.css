@@ -1,7 +1,7 @@
 .testimonial {
-    flex: 0 0 30%;
-    max-width: 30%;
-    min-height: 70vh;
+    flex: 0 0 32%;
+    max-width: 35%;
+    height: auto;
     background-color: white;
     padding: 2rem;
     border-radius: 1rem;
@@ -15,7 +15,7 @@
     border: 0.1rem solid #FF9B42;
 }
 .testimonial p{
-    font-size: 1rem;
+    font-size: 1.3rem;
     color: #283148;
     font-weight: 600;
 }
@@ -62,7 +62,7 @@
 .name{
     margin-top: 0.5rem;
     margin-bottom: -0.8rem;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 .status{
     font-size: 1rem;
@@ -76,132 +76,61 @@
     color: white;
 }
 
-@media (max-width:1115px){
-    .testimonial p{
-        font-size: 0.8rem;
-    }
+
+@media (max-width:1115px) {
+    .testimonial p,
     .name{
-        font-size: 0.8rem;
+        font-size: 1.1rem;
     }
     .status{
-        font-size: 0.7rem;
+        font-size: 0.9rem;
+    }
+    .avatar h1{
+        font-size: 1.4rem;
     }
 }
 
-@media (max-width:1036px){
-    .testimonial {
-        flex: 0 0 32%;
-        max-width: 35%;
-        min-height: 70vh;
-        transition: 0.5s;
+@media (max-width:1000px) {
+    .testimonial p,
+    .name{
+        font-size: 0.95rem;
     }
-}
-
-@media (max-width:972px){
-    .user{
-        height: 4rem;
+    .status{
+        font-size: 0.75rem;
     }
     .avatar{
         width: 3rem;
         height: 3rem;
     }
+    .avatar h1{
+        font-size: 1.2rem;
+    }
 }
 
-@media (max-width:945px){
+@media (max-width:890px) {
+    .testimonial p,
+    .name{
+        font-size: 0.9rem;
+    }
+    .status{
+        font-size: 0.7rem;
+    }
+    .avatar h1{
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width:790px) {
     .testimonial {
         flex: 0 0 48%;
         max-width: 50%;
-        min-height: 50vh;
-    }
-    .name{
-        font-size: 1.1rem;
-    }
-    .status{
-        font-size: 1rem;
     }
 }
 
-@media (max-width:742px){
-    .name{
-        font-size: 0.9rem;
-    }
-    .status{
-        font-size: 0.8rem;
-    }
-}
-
-@media (max-width:670px){
-    .name{
-        font-size: 0.8rem;
-    }
-    .status{
-        font-size: 0.7rem;
-    }
-}
-
-@media (max-width:625px){
+@media (max-width:599px) {
     .testimonial {
-        flex: 0 0 97%;
+        flex: 0 0 98%;
         max-width: 98%;
-        min-height: 50vh;
-    }
-    .name{
-        font-size: 1.1rem;
-    }
-    .status{
-        font-size: 1rem;
     }
 }
 
-@media (max-width:530px){
-    .testimonial {
-        flex: 0 0 96.5%;
-        max-width: 98%;
-        min-height: 50vh;
-    }
-    .name{
-        font-size: 1.1rem;
-    }
-    .status{
-        font-size: 1rem;
-    }
-}
-
-@media (max-width:365px){
-    .testimonial {
-        flex: 0 0 95%;
-        max-width: 98%;
-        min-height: 50vh;
-    }
-}
-
-@media (max-width:370px){
-    .name{
-        font-size: 0.9rem;
-    }
-    .status{
-        font-size: 0.8rem;
-    }
-}
-
-@media (max-width:403px){
-    .testimonial p{
-        font-size: 0.7rem;
-    }
-}
-
-@media (max-width:450px){
-    .testimonial p{
-        font-size: 0.95rem;
-    }
-}
-
-
-@media (max-width:332px){
-    .name{
-        font-size: 0.8rem;
-    }
-    .status{
-        font-size: 0.7rem;
-    }
-}

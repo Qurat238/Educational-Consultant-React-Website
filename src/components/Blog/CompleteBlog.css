@@ -20,12 +20,12 @@
     justify-content: center;
 }
 .completeImageContainer .completeImage{
-    width: 55rem;
-    height: 25rem;
+    width: 100%;
+    height: 100%;
 }
 .completeImageContainer h1{
     position: absolute;
-    font-size: 45px;
+    font-size: 3rem;
     color: white;
     width: 80%;
     text-align: center;
@@ -45,6 +45,7 @@
 .tableOfContentHeading h2,
 .tableOfContentHeading svg{
     color: white;
+    font-size: 1.6rem;
 }
 .tableOfContentList > ul{
     margin-top: -0.1rem;
@@ -52,30 +53,85 @@
     padding: 1rem 2rem;
 }
 .tableOfContentList > ul > li{
-    font-size: 15px;
+    font-size: 1.35rem;
     color: #283148;
     list-style-type: decimal;
 }
 .completeBlogSection p{
-    font-size: 15px;
+    font-size: 1.35rem;
 }
 .completeBlogSection h1{
-    font-size: 28px;
+    font-size: 2rem;
     color: #283148;
 }
 .completeBlogSection h2{
-    font-size: 22px;
+    font-size: 1.5rem;
     color: #283148;
 }
 
-@media (max-width:875px) {
+@media (max-width:1115px) {
+    .completeImageContainer h1{
+        font-size: 2.3rem;
+    }
+    .tableOfContentHeading h2,
+    .completeBlogSection h2{
+        font-size: 1.4rem;
+    }
+    .completeBlogSection p,
+    .tableOfContentList > ul > li{
+        font-size: 1.1rem;
+    }
+    .completeBlogSection h1{
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width:1000px) {
+    .completeImageContainer h1{
+        font-size: 2rem;
+    }
+    .tableOfContentHeading h2,
+    .completeBlogSection h2{
+        font-size: 1.2rem;
+    }
+    .completeBlogSection p,
+    .tableOfContentList > ul > li{
+        font-size: 0.95rem;
+    }
+    .completeBlogSection h1{
+        font-size: 1.4rem;
+    }
+    .completeBlogFirstSection{
+        width: 90%;
+    }
+}
+
+@media (max-width:890px) {
+    .completeImageContainer h1{
+        font-size: 1.8rem;
+    }
+    .tableOfContentHeading h2,
+    .completeBlogSection h2{
+        font-size: 1.1rem;
+    }
+    .completeBlogSection p,
+    .tableOfContentList > ul > li{
+        font-size: 0.9rem;
+    }
+    .completeBlogSection h1{
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width:803px) {
+    .completeImageContainer h1{
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width:730px) {
     .completeBlogFirstSection{
         width: 100%;
     }
 }
 
-@media (max-width:450px) {
-    .completeImageContainer h1{
-        font-size: 2rem;
-    }
-}

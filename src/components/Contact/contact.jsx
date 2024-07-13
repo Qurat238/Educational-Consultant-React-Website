@@ -10,7 +10,7 @@ const contact = () => {
   return (
     <div className="contactMainContainer">
       <ContactUsSecond />
-      {/* <ContactUs /> */}
+      <ContactUs />
       <div className="messageFromFounder">
         <div className="messageImageContainer">
           <img src={message} alt="message" className="messageImage" />

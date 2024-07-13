@@ -4,25 +4,20 @@
     background-color: #283148;
     width: 100vw;
     margin-top: 3rem;
+    height: auto;
+    padding-bottom: 5rem;
 }
 .blogHeading{
     font-weight: 900;
-    font-size: 2.7rem;
+    font-size: 3rem;
     margin: 0;
     line-height: 1.2;
-    font-family: "Poppins", sans-serif;
     text-align: center;
-    color: white;
-}
-.blogText{
-    text-align: center;
-    font-size: 1rem;
-    margin-bottom: 4rem;
     color: white;
 }
 .blogs{
     display: flex;
-    gap: 2.5rem;
+    gap: 1.35%;
     width: 80vw;
     margin: auto;
     flex-wrap: nowrap;
@@ -51,77 +46,113 @@
     cursor: pointer;
 }
 
+@media (max-width:1118px) {
+    .blogs{
+        width: 90vw;
+    }
+    .leftBlogArrow{
+        left: -0.2rem;
+        top:55vh;
+    }
+    .rightBlogArrow{
+        right: 0.5rem;
+        top: 55vh;
+    }
+}
+
 @media (max-width:1115px) {
-   .blogs{
-    gap: 0.7rem;
-   }
-}
-
-@media (max-width:1005px) {
+    .blogHeading{
+        font-size: 2.3rem;
+    }
     .leftBlogArrow{
-        top: 65vh;
-        left: 1rem;
+        top:65vh;
     }
     .rightBlogArrow{
         top: 65vh;
-        right: 2rem;
     }
 }
 
-@media (max-width:915px) {
+@media (max-width:1000px) {
+
+    .blogHeading{
+        font-size: 2rem;
+    }
     .leftBlogArrow{
-        top: 55vh;
-        left: 1rem;
+        top:55vh;
     }
     .rightBlogArrow{
         top: 55vh;
-        right: 2rem;
     }
 }
 
-@media (max-width:768px) {
-    .leftBlogArrow{
-        left: 0.5rem;
+@media (max-width:890px) {
+    .blogHeading{
+        font-size: 1.8rem;
     }
-    .rightBlogArrow{
-        right: 1em;
-    }
-}
-
-@media (max-width:712px) {
-    .leftBlogArrow{
-        top: 60vh;
-        left: 0.5rem;
-    }
-    .rightBlogArrow{
-        top: 60vh;
-        right: 1em;
-    }
-}
-
-@media (max-width:625px) {
-    .leftBlogArrow{
-        left: 0;
-    }
-    .rightBlogArrow{
-        right: 0.5;
-    }
-}
-
-@media (max-width:496px) {
     .leftBlogArrow{
         left: -0.8rem;
     }
     .rightBlogArrow{
-        right: -0.4rem;
+        right: -0.3rem;
     }
 }
 
-@media (max-width:450px) {
-    .blogs{
-        width: 70vw;
-    }
+@media (max-width:803px) {
     .blogHeading{
-        font-size: 2rem;
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width:790px) {
+    .blogs{
+        width: 80vw;
+        gap: 2.3%;
+    }
+    .leftBlogArrow{
+        left: 1rem;
+        top: 50vh;
+    }
+    .rightBlogArrow{
+        right: 1.5rem;
+        top: 50vh;
+    }
+}
+
+@media (max-width:630px) {
+    .leftBlogArrow{
+        left: 0.1rem;
+    }
+    .rightBlogArrow{
+        right: 0.7rem;
+    }
+}
+
+@media (max-width:599px) {
+    .blogs{
+        gap: 2.1%;
+    }
+}
+
+@media (max-width:500px) {
+    .leftBlogArrow{
+        left: -0.6rem;
+    }
+    .rightBlogArrow{
+        right: 0.1rem;
+    }
+}
+
+@media (max-width:430px) {
+    .blogs{
+        margin-left: -0.8rem;
+    }
+}
+
+@media (max-width:420px) {
+    .leftBlogArrow{
+        left: -0.9rem;
+    }
+    .rightBlogArrow{
+        right: -0.4rem;
     }
 }

@@ -43,32 +43,32 @@ const Blog = () => {
     {
       id:"507f1f77bcf86cd799439000",
       heading: "Study Abroad Opportunities for Pakistani Students",
-      text: "Thinking about studying abroad? It's an exciting prospect that opens doors to new cultures, experiences, and career opportunities. For Pakistani students, choosing the right destination can be crucial. In this blog, we'll explore some of...",
+      text: "Thinking about studying abroad? It's an exciting prospect that opens doors to new cultures, experiences, and career opportunities. For Pakistani students...",
     },
     {
       id:"507f1f77bcf86cd799439001",
       heading: "Career Paths in Emerging Industries",
-      text: "In today's rapidly evolving world, certain industries are not just growing—they're shaping the future. For Pakistani professionals looking to build a successful career, understanding these emerging industries can be a game-changer. Join us as we..."
+      text: "In today's rapidly evolving world, certain industries are not just growing—they're shaping the future. For Pakistani professionals looking to build a successful..."
     },
     {
       id:"507f1f77bcf86cd799439002",
       heading: "Turkish VISA procedure, fee structure, Requirments",
-      text: "Are you preparing to travel to Turkey and in need of essential information? Look no further! In this comprehensive guide, we will break down some key pointers you need to know, including details about visa fees for Pakistani travelers visiting..."
+      text: "Are you preparing to travel to Turkey and in need of essential information? Look no further! In this comprehensive guide, we will break down some key pointers you..."
     },
     {
       id:"507f1f77bcf86cd799439003",
       heading: "Remote Work and Freelancing Opportunities",
-      text: "The world of work is evolving, and remote opportunities are at the forefront of this transformation. For Pakistani professionals seeking flexibility and global opportunities, remote work and freelancing present a compelling option. In this blog...",
+      text: "The world of work is evolving, and remote opportunities are at the forefront of this transformation. For Pakistani professionals seeking flexibility and...",
     },
     {
       id:"507f1f77bcf86cd799439004",
       heading: "Language Learning and Skill Development",
-      text: "In today's interconnected world, language skills and specialized expertise are more valuable than ever. For Pakistani individuals keen on advancing their careers or exploring new horizons, investing in language learning and skill development can..."
+      text: "In today's interconnected world, language skills and specialized expertise are more valuable than ever. For Pakistani individuals keen on advancing their careers or exploring..."
     },
     {
       id:"507f1f77bcf86cd799439005",
       heading: "Career Advancement Strategies for Pakistani Professionals",
-      text: "Achieving career success requires more than just hard work—it requires strategic planning and continuous learning. For Pakistani professionals navigating today's competitive job market, adopting effective career advancement strategies can be the...",
+      text: "Achieving career success requires more than just hard work—it requires strategic planning and continuous learning. For Pakistani professionals navigating today's...",
     },
 
   ];

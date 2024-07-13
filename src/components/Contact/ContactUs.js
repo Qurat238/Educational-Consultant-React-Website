@@ -54,16 +54,33 @@ const ContactUs = () => {
         </p>
         <div className="contactNumberContainer">
           <div className="iconContainer">
+            <div>
             <PhoneIcon className="phoneIcon" />
+            </div>
+            <div>
+            <PhoneIcon className="phoneIcon" />
+            </div>
           </div>
           <div className="contactNumber">
             <div className="contactNameAndNo">
-              <h3>Director: Nabiha Noor</h3>
-              <h3>0315-7225955</h3>
+              <div>
+                <h3>Director:</h3>
+                <h3>Phone Number:</h3>
+              </div>
+              <div>
+                <h3>Nabiha Noor</h3>
+                <h3>0315-7225955</h3>
+              </div>
             </div>
             <div className="contactNameAndNo">
-              <h3>Senior Consultant: Ayesha Kaleem</h3>
-              <h3>0313-4018857</h3>
+              <div>
+                <h3>Senior Consultant:</h3>
+                <h3>Phone Number:</h3>
+              </div>
+              <div>
+              <h3>Ayesha Kaleem</h3>
+                <h3>0313-4018857</h3>
+              </div>
             </div>
           </div>
         </div>

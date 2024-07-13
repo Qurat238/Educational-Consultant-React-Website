@@ -8,13 +8,13 @@ const Testimonial = () => {
 
   const testimonials = [
     {
-      name: "Fatima Rahman",
+      name: "Fatima Ali",
       status: "Student",
       letter: "F",
-      message: "Paramount Consultants has been instrumental in shaping my academic path with their exceptional guidance. Their counselors are not only highly knowledgeable but also make sure that every student receives personalized attention. Being part of Paramount's network felt like being part of a family where success is not just encouraged but nurtured."
+      message: "Paramount Consultants has been instrumental in shaping my academic path with their exceptional guidance. Their counselors are not only highly knowledgeable but also make sure that every student receives personalized attention."
     },
     {
-      name: "Ibrahim Hassan",
+      name: "Ibrahim",
       status: "Student",
       letter: "I",
       message: "Having been guided by Paramount Consultants, my academic journey has been nothing short of transformative. From the outset, their unwavering commitment to my success was evident. Their team of counselors care about each student's aspirations."
@@ -23,25 +23,25 @@ const Testimonial = () => {
       name: "Amir Malik",
       status: "Student",
       letter: "A",
-      message: "Paramount surpassed all my expectations in facilitating my admission process for studying abroad. Their transparent approach, combined with personalized guidance, made the entire experience seamless. From providing insightful advice on universities to navigating transparent visa procedures, their comprehensive support proved invaluable."
+      message: "Paramount surpassed all my expectations in facilitating my admission process for studying abroad. Their transparent approach, combined with personalized guidance, made the entire experience seamless."
     },
     {
       name: "Imran Khan",
       status: "Student",
       letter: "I",
-      message: "The staff is exceptionally helpful, guiding you through every step of the process. Furthermore, their support extends beyond securing the visa; they also assist with university clearance and more. My experience with Paramount has been excellent, and I am deeply grateful to the entire team for making my dream a reality."
+      message: "The staff is exceptionally helpful, guiding you through every step of the process. Furthermore, their support extends beyond securing the visa; they also assist with university clearance and more. My experience with Paramount has been excellent."
     },
     {
       name: "Zahra Abbas",
       status: "Student",
       letter: "Z",
-      message: "Paramount stands out as a beacon of excellence in educational consultancy. Their counselors combine extensive expertise with a genuine commitment to student welfare and success. From application advice to ongoing support, Paramount's personalized approach made me feel confident and supported every step of the way."
+      message: "Paramount stands out as a beacon of excellence in educational consultancy. Their counselors combine extensive expertise with a genuine commitment to student welfare and success."
     },
     {
       name: "Zaid Ali",
       status: "Student",
       letter: "Z",
-      message: "Choosing Paramount was one of the best decisions I made for my educational journey. Their counselors are not only experts in navigating the complexities of international admissions but also deeply invested in each student's success. Their dedication and personalized guidance ensured that I not only secured admission but also thrived in my chosen academic path."
+      message: "Choosing Paramount was one of the best decisions I made for my educational journey. Their counselors are not only experts in navigating the complexities of international admissions but also deeply invested in each student's success."
     },
   ];
 

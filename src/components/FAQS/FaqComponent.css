@@ -15,6 +15,7 @@
 }
 .fAQContent .heading h3{
     color: white;
+    font-size: 1.35rem;
 }
 .fAQContent .heading svg{
     color: #fff;
@@ -30,7 +31,23 @@
     margin-top: -1rem;
     color: #283148;
     display: none;
+    font-size: 1.35rem;
 } 
+
+
+@media (max-width:1115px) {
+    .fAQContent .heading h3,
+    .fAQContent p{
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width:1000px) {
+    .fAQContent .heading h3,
+    .fAQContent p{
+        font-size: 0.95rem;
+    }
+}
 
 @media (max-width:555px) {
     .fAQContent .heading{
@@ -38,9 +55,9 @@
     }
 }
 
-@media (max-width:450px) {
-    .fAQSection p,
-    .fAQSection h3{
-        font-size: 0.95rem;
-    } 
+@media (max-width:890px) {
+    .fAQContent .heading h3,
+    .fAQContent p{
+        font-size: 0.9rem;
+    }
 }

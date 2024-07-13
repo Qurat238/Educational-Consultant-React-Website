@@ -3,22 +3,21 @@
     padding-bottom: 4rem;
     background-color: #283148;
     width: 100vw;
+    height: auto;
     position: relative;
-    margin-top: 3rem;
 }
 .testimonialsHeading{
     font-weight: 900;
-    font-size: 2.7rem;
+    font-size: 3rem;
     margin: 0;
     line-height: 1.2;
-    font-family: "Poppins", sans-serif;
     text-align: center;
     margin-bottom: 3rem;
     color: #FF9B42;
 }
 .testimonialsContainer{
     display: flex;
-    gap: 2.5rem;
+    gap: 1.35%;
     width: 80vw;
     margin: auto;
     flex-wrap: nowrap;
@@ -28,7 +27,7 @@
 .leftArrow{
     position: absolute;
     left: 2rem;
-    top: 50vh;
+    top:45vh;
     background-color: #283148;
     border: none;
     cursor: pointer;
@@ -36,108 +35,118 @@
 .rightArrow{
     position: absolute;
     right: 3rem;
-    top: 50vh;
+    top: 45vh;
     background-color: #283148;
     border: none;
     cursor: pointer;
 }
 
-@media (max-width:1036px){
+@media (max-width:1118px) {
     .testimonialsContainer{
-        gap: 0.7rem;
+        width: 90vw;
+    }
+    .leftArrow{
+        left: -0.2rem;
+        top:65vh;
+    }
+    .rightArrow{
+        right: 0.5rem;
+        top: 65vh;
     }
 }
 
-@media (max-width:972px){
+@media (max-width:1115px) {
     .testimonialsHeading{
-        font-size: 2.2rem;
+        font-size: 2.3rem;
+    }
+    .leftArrow{
+        top:55vh;
+    }
+    .rightArrow{
+        top: 55vh;
     }
 }
 
-@media (max-width:945px){
-    .testimonialsContainer{
-        gap: 1rem;
+@media (max-width:1000px) {
+    .testimonialsHeading{
+        font-size: 2rem;
     }
     .leftArrow{
-        top: 40vh;
+        top:50vh;
     }
     .rightArrow{
-        top: 40vh;
+        top: 50vh;
     }
 }
 
-@media (max-width:840px){
+@media (max-width:890px) {
+    .testimonialsHeading{
+        font-size: 1.8rem;
+    }
     .leftArrow{
-        left: 1rem;
+        left: -0.8rem;
     }
     .rightArrow{
-        right: 2rem;
-    }
-}
-
-@media (max-width:725px){
-    .leftArrow{
-        top: 45vh;
-        left: 0.5rem;
-    }
-    .rightArrow{
-        top: 45vh;
-        right: 1rem;
-    }
-}
-
-@media (max-width:625px){
-    .leftArrow{
-        top: 40vh;
-        left: 0;
-    }
-    .rightArrow{
-        top: 40vh;
-        right: 0.7rem;
-    }
-}
-
-@media (max-width:475px){
-    .leftArrow{
-        top: 40vh;
-        left: -1rem;
-    }
-    .rightArrow{
-        top: 40vh;
         right: 0.1rem;
     }
 }
 
-@media (max-width:403px){
+@media (max-width:803px) {
+    .testimonialsHeading{
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width:790px) {
+    .testimonialsContainer {
+        width: 80vw;
+        gap: 2.2%;
+    }
+    .leftArrow{
+        left: 1rem;
+        top: 45vh;
+    }
+    .rightArrow{
+        right: 1.5rem;
+        top: 45vh;
+    }
+}
+
+@media (max-width:630px) {
+    .leftArrow{
+        left: 0.1rem;
+    }
+    .rightArrow{
+        right: 0.7rem;
+    }
+}
+
+@media (max-width:599px) {
+    .testimonialsContainer {
+        gap:2.1%;
+    }
     .leftArrow{
         top: 40vh;
-        left: -1.5rem;
     }
     .rightArrow{
         top: 40vh;
-        right: -0.3rem;
     }
 }
 
-@media (max-width:315px){
+@media (max-width:500px) {
     .leftArrow{
-        top: 50vh;
-        left: -1.5rem;
+        left: -0.6rem;
     }
     .rightArrow{
-        top: 50vh;
-        right: -0.3rem;
+        right: 0.1rem;
     }
 }
 
-@media (max-width:450px) {
-    .testimonialsHeading{
-        font-size: 2rem;
+@media (max-width:420px) {
+    .leftArrow{
+        left: -0.9rem;
     }
-}
-
-@media (max-width:332px){
-    .testimonialsHeading{
-        font-size: 1.5rem;
+    .rightArrow{
+        right: -0.4rem;
     }
 }

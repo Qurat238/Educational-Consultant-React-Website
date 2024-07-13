@@ -40,7 +40,7 @@ ul{
 .headerlink{
     display: block;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: #283148;
     font-weight: 900;
     transition: 0.5s;
@@ -62,7 +62,7 @@ ul li ul.dropdown{
     z-index: 999;
     display: none;
     padding: 0;
-    margin-top: -0.2rem;
+    margin-top: -0.5rem;
 }
 ul li ul.dropdown1{
     width: 180%;
@@ -71,7 +71,7 @@ ul li ul.dropdown1{
     z-index: 999;
     display: none;
     padding: 0;
-    margin-top: -0.2rem;
+    margin-top: -0.5rem;
 }
 ul li ul.dropdown li a:hover{
     background-color: #283148;
@@ -98,20 +98,19 @@ ul li:hover ul.dropdown1{
     border-radius: 0.7rem;
     position: fixed;
     top: 1rem;
-    left: 1rem;
+    right: 1rem;
     border: 0.1rem solid skyblue;
     z-index: 1;
 }
 
 .hamburger span {
     width: 1.7rem;
-    left: 1.6rem;
+    right: 1.6rem;
     top: 1.65rem;
     height: 0.25rem;
     background-color: white;
     position: fixed;
     z-index: 1;
-    /* border-radius: 0.5rem; */
 }
 
 .hamburger span:nth-child(2) {
@@ -138,13 +137,14 @@ ul li:hover ul.dropdown1{
     z-index: 10;
     border-right: 0.2rem solid black;
 }
-.smallScreenLinksContainer{
+ .smallScreenLinksContainer{
     display: flex;
     flex-direction: column;
     gap: 0;
     padding: 2rem !important;
     margin-top: -2rem !important;
 }
+
 .smallScreenLink{
     margin-top: -1rem !important;
     color: #283148;
@@ -184,7 +184,7 @@ ul li:hover ul.dropdown1{
 
 .smallScreenPanel a{
     font-size: 0.8rem;
-}
+} 
 
 #overlay {
     position: fixed;
@@ -212,6 +212,17 @@ ul li:hover ul.dropdown1{
     margin-top: 3rem;
 }
 
+@media (max-width:1115px) {
+    .headerlink{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:960px) {
+    .headerlink{
+        font-size: 0.9rem;
+    }
+}
 
 @media (max-width:886px) {
     .headerImage{
@@ -224,44 +235,14 @@ ul li:hover ul.dropdown1{
 
 @media (max-width:808px) {
     .headerImage{
-        width: 4rem;
+        width: 3.5rem;
     }
     .headerlink{
-        font-size: 0.7rem;
+        font-size: 0.75rem;
     }
 }
 
-@media (max-width:743px) {
-    .headerlinks{
-        gap: 0.5rem;
-    }
-    .headerlink{
-        font-size: 0.6rem;
-    }
-}
-
-@media (max-width:695px) {
-    .headerlinks{
-        gap: 0.2rem;
-    }
-    .headerlink{
-        font-size: 0.5rem;
-    }
-}
-
-@media (max-width:647px) {
-    .headerContainer{
-        padding: 0 1rem;
-    }
-}
-
-@media (max-width:584px) {
-    .headerContainer{
-        padding: 0 0.5rem;
-    }
-}
-
-@media (max-width:568px) {
+@media (max-width:780px) {
     .smallScreenPanel{
         display: block;
     }
@@ -270,4 +251,10 @@ ul li:hover ul.dropdown1{
         border: 3rem solid #283148;
     }
     
+}
+
+@media (max-width:430px) {
+    .smallScreenLinksContainer{
+        margin-left: 3rem;
+    }
 }

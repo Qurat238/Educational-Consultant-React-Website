@@ -13,7 +13,7 @@ const AboutComponent = () => {
   return (
     <div className="aboutSection">
       <div className="aboutContentContainer">
-        <h1 className="aboutHeading">Paramount Consultants</h1>
+        <h1 className="aboutHeading">About Us</h1>
         <p className="aboutText">
           Paramount Consultants Pvt Ltd is committed to being a specialized
           provider of Student Visa, Visit Visas, and Immigration Consultancy, in

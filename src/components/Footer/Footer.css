@@ -10,34 +10,30 @@
     flex-direction: column;
     background-color: #283148;
     justify-content: center;
-    padding: 1rem;
+    padding: 2rem;
 }
 .footerFirstSection{
     display: flex;
     padding-bottom: 2rem;
 }
+.footerTwoSectionsContainer{
+    flex-basis: 50%;
+}
 .footerContentContainer{
     display: flex;
-    margin-top: 2rem;
-    flex-direction: column;
+    width: 90%;
+    margin-top: 3rem;
     align-items: center;
     justify-content: center;
-    flex-basis: 32%;
+    flex-basis: 40%;
     background-color: white;
     padding: 3rem;
     border-radius: 2rem;
 }
-.footerContentContainer > h1{
-    font-weight: 900;
-    margin: 0;
-    font-size: 20px;
-    color: #283148;
-    font-family: "Poppins", sans-serif;
-}
 .footerContentContainer > p{
     color: #283148;
     width: 90%;
-    font-size: 13px;
+    font-size: 1.25rem;
     margin-bottom: 1.5rem;
     font-weight: 600;
 }
@@ -45,14 +41,17 @@
     width: 10rem;
 }
 .footerMapContainer{
-    flex-basis: 26%;
+    width: 90%;
     padding: 2rem;
+    overflow: hidden;
 }
 .mapImage{
-    width: 26rem;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .footerQuickLinksContainer{
-    flex-basis: 40%;
+    flex-basis: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -62,7 +61,7 @@
 .footerQuickLinksContainer > h2{
     font-weight: 900;
     margin: 0;
-    font-size: 25px;
+    font-size: 2rem;
     color: white;
     margin-bottom: 1rem;
     font-family: "Poppins", sans-serif;
@@ -72,14 +71,14 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    width: 80%;
+    width: 100%;
 }
 .address,
 .mail,
 .phone{
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 0.5rem;
     background-color: #FF9B42;
     width: 100%;
     padding: 0.3rem 1rem;
@@ -95,13 +94,13 @@
 .mail > p{
     color: #283148;
     width: 90%;
-    font-size: 13px;
+    font-size: 1.15rem;
     margin-bottom: 1.5rem;
     font-weight: 600;
 }
 .phone p{
     color: #283148;
-    font-size: 13px;
+    font-size: 1.15rem;
     font-weight: 600;
 }
 
@@ -122,9 +121,8 @@
 }
 .termsCondition a,
 .copyright a{
-    font-size: 1rem;
+    font-size: 1.35rem;
     font-weight: 900;
-    font-family: "Poppins", sans-serif;
     color: #283148;
 }
 .termsCondition a:hover,
@@ -133,13 +131,48 @@
     color: black;
 }
 
-
 @media (max-width:1115px) {
-    .footerFirstSection{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
+    .footerQuickLinksContainer > h2{
+        font-size: 1.4rem;
+    }
+    .termsCondition a,
+    .copyright a,
+    .footerContentContainer > p,
+    .mail p,
+    .address p,
+    .phone p{
+        font-size: 0.9rem;
     }
 }
+
+@media (max-width:1000px) {
+    .footerQuickLinksContainer > h2{
+        font-size: 1.2rem;
+    }
+    .termsCondition a,
+    .copyright a,
+    .footerContentContainer > p,
+    .mail p,
+    .address p,
+    .phone p{
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width:890px) {
+    .footerQuickLinksContainer > h2{
+        font-size: 1.1rem;
+    }
+    .termsCondition a,
+    .copyright a,
+    .footerContentContainer > p,
+    .mail p,
+    .address p,
+    .phone p{
+        font-size: 0.8rem;
+    }
+}
+
 
 @media (max-width:800px) {
     .footerFirstSection{
@@ -148,29 +181,14 @@
     }
 }
 
-@media (max-width:557px) {
+@media (max-width:430px) {
     .footerContentContainer{
-        width: 19.5rem;
+        flex-direction: column;
+        width: 90%;
+        padding: 1rem;
     }
-    .footerContentContainer > h1{
-        font-size: 1rem;
-    }
-    .mapImage{
-        width: 20rem;
+    .links{
         margin-left: -3rem;
-    }
-    .footerQuickLinksContainer{
-        margin-left: -4rem;
-        width: 27rem !important;
-    }
-    .address,
-    .mail,
-    .phone{
-        gap:0.3rem;
-    }
-    .termsCondition a,
-    .copyright a{
-        font-size: 0.7rem;
+        width: 110%;
     }
 }
-
