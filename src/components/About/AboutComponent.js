@@ -1,14 +1,8 @@
 import React from "react";
 import introduction from "../../images/introduction.png";
 import "./AboutComponent.css";
-import { useNavigate } from "react-router-dom";
 
 const AboutComponent = () => {
-  const navigate = useNavigate();
-
-  const aboutBtnHandler = () => {
-    navigate("/about");
-  };
 
   return (
     <div className="aboutSection">

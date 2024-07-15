@@ -4,7 +4,7 @@
     background-color: #283148;
     width: 100vw;
     margin-top: 3rem;
-    height: auto;
+    height: 130vh;
     padding-bottom: 5rem;
 }
 .blogHeading{
@@ -57,6 +57,9 @@
     .blogHeading{
         font-size: 2rem;
     }
+    .blogsSection{
+        height: 110vh;
+    }
 }
 
 @media (max-width:890px) {
@@ -76,6 +79,9 @@
         width: 80vw;
         gap: 2.3%;
     }
+    .blogsSection{
+        height: 100vh;
+    }
 }
 
 
@@ -83,5 +89,22 @@
     .blogs{
         gap: 2.1%;
     }
+    .blogsSection{
+        height: 90vh;
+    }
 }
+
+
+@media (max-width:500px) {
+    .blogsSection{
+        height: 100vh;
+    }
+}
+
+@media (max-width:400px) {
+    .blogsSection{
+        height: 110vh;
+    }
+}
+
 
