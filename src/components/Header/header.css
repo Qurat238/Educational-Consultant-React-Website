@@ -92,6 +92,7 @@ ul li:hover ul.dropdown1{
 .smallScreenPanel{
     display: none;
 }
+
 .hamburger {
     background-color: #283148;
     width: 3rem;
@@ -138,7 +139,14 @@ ul li:hover ul.dropdown1{
     z-index: 10;
     border-right: 0.2rem solid black;
 }
- .smallScreenLinksContainer{
+
+.smallScreenLinks{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+}
+
+ /* .smallScreenLinksContainer{
     display: flex;
     flex-direction: column;
     gap: 0;
@@ -185,7 +193,7 @@ ul li:hover ul.dropdown1{
 
 .smallScreenPanel a{
     font-size: 0.8rem;
-} 
+}  */
 
 #overlay {
     position: fixed;

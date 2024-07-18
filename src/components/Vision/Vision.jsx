@@ -3,7 +3,7 @@ import "./Vision.css";
 
 const Vision = () => {
   return (
-    <div className="visionContainer">
+    <div className="visionContainer" id='vision'>
         <h1>Our Vision for Success</h1>
         <p>
           Our vision is to empower students to unlock their future

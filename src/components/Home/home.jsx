@@ -12,6 +12,9 @@ import OurMission from "../About/OurMission";
 import Services from "../Services/Services";
 import Vision from "../Vision/Vision";
 import DestinationComponent from "../Destinations/DestinationComponent";
+import WhatWeDo from "../Services/WhatWeDo";
+import ContactUsSecond from "../Contact/ContactUsSecond";
+import Message from "../Contact/Message";
 
 const Home = () => {
 
@@ -44,10 +47,13 @@ const Home = () => {
       <Services/>
       <Vision/>
       <DestinationComponent/>
+      <WhatWeDo/>
       <Testimonial/>
       <ContactUs/>
+      <Message/>
       <Blog/>
       <FAQS/>
+      <ContactUsSecond/>
       <Footer/>
     </div>
   );

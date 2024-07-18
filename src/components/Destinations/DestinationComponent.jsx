@@ -3,7 +3,7 @@ import "./DestinationComponent.css";
 
 const DestinationComponent = () => {
   return (
-    <div className="destinationComponentContainer">
+    <div className="destinationComponentContainer" id="destination">
       <h1>Destinations</h1>
       <p className="destinationComponentText">
         At Paramount Consultants, we guide students toward their educational

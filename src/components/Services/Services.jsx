@@ -30,7 +30,7 @@ const Services = () => {
   }, []);
 
   return (
-    <div className="servicesContainer">
+    <div className="servicesContainer" id="service">
       <h1>Our Services</h1>
       <p className="servicesText">
         Paramount provides a wide range of services to support you with your

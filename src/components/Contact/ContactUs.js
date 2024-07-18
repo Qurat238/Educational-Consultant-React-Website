@@ -35,7 +35,7 @@ const ContactUs = () => {
   }, []);
 
   return (
-    <div className="contactSection">
+    <div className="contactSection" id="contact">
       <div className="contactContent">
         <h2>TALK TO OUR CAREER EXPERTS</h2>
         <h1>Please Feel Free To Contact Us</h1>
