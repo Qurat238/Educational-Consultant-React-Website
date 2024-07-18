@@ -68,7 +68,7 @@ const ContactUs = () => {
                 <h3>Phone Number:</h3>
               </div>
               <div>
-                <h3>Nabiha Noor</h3>
+                <h3 className="directorName">Nabiha Noor</h3>
                 <h3>0315-7225955</h3>
               </div>
             </div>
@@ -79,7 +79,7 @@ const ContactUs = () => {
               </div>
               <div>
               <h3>Ayesha Kaleem</h3>
-                <h3>0313-4018857</h3>
+                <h3 className="consultantNo">0313-4018857</h3>
               </div>
             </div>
           </div>

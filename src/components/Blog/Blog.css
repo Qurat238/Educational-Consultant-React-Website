@@ -1,11 +1,14 @@
 .blogsSection{
-    padding: 3rem 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 3rem;
+    padding-bottom: 24rem;
     position: relative;
     background-color: #283148;
     width: 100vw;
     margin-top: 3rem;
-    height: 130vh;
-    padding-bottom: 5rem;
+    height: auto;
+    box-sizing: border-box;
 }
 .blogHeading{
     font-weight: 900;

@@ -1,10 +1,13 @@
 .testimonialsSection{
-    padding: 2rem 0.5rem;
-    padding-bottom: 4rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 4rem;
+    padding-bottom: 18rem;
     background-color: #283148;
     width: 100vw;
-    height: 120vh;
+    height: auto;
     position: relative;
+    box-sizing: border-box;
 }
 .testimonialsHeading{
     font-weight: 900;
