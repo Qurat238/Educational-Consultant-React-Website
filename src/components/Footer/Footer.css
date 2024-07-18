@@ -15,11 +15,14 @@
 }
 .footerFirstSection{
     display: flex;
-    padding-bottom: 2rem;
+    flex-direction: column;
+    gap: 5rem;
 }
-.footerTwoSectionsContainer{
-    flex-basis: 50%;
+.footertwoSectionsContainer{
+    display: flex;
+    gap: 5rem;
 }
+
 .footerContentContainer{
     display: flex;
     width: 90%;
@@ -40,16 +43,6 @@
 }
 .footerLogo{
     width: 10rem;
-}
-.footerMapContainer{
-    width: 90%;
-    padding: 2rem;
-    overflow: hidden;
-}
-.mapImage{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
 }
 .footerQuickLinksContainer{
     flex-basis: 50%;
@@ -104,6 +97,20 @@
     font-size: 1.15rem;
     font-weight: 600;
 }
+
+.footerMapContainer{
+    width: 70%;
+    padding: 2rem;
+    margin: auto;
+    overflow: hidden;
+}
+  
+.mapImage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} 
+
 
 /*-------------------------------------------Mini Footer Section------------------------------------------------------*/
 
@@ -174,6 +181,11 @@
     }
 }
 
+@media (max-width:850px) {
+    .footertwoSectionsContainer{
+        gap: 2rem;
+    }
+}
 
 @media (max-width:800px) {
     .footerFirstSection{
@@ -182,12 +194,25 @@
     }
 }
 
-@media (max-width:430px) {
-    .footerContentContainer{
-        flex-direction: column;
-        width: 90%;
-        padding: 1rem;
+@media (max-width:790px) {
+    .footertwoSectionsContainer{
+        gap: 1rem;
     }
+}
+
+@media (max-width:770px) {
+    .footerFirstSection{
+        gap: 1rem;
+    }
+    .footertwoSectionsContainer{
+        flex-direction: column;
+    }
+    .footerMapContainer{
+        width: 100%;
+    }
+}
+
+@media (max-width:430px) {
     .links{
         margin-left: -3rem;
         width: 110%;

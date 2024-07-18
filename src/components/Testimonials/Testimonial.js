@@ -79,7 +79,7 @@ const Testimonial = () => {
         
         
         <h1 className="testimonialsHeading">Testimonials</h1>
-        <div className="container">
+        <div className="testimonialContainerFlex">
         <button className="leftArrow" onClick={backHandler}>
           <KeyboardArrowLeftIcon className="icon" />
         </button>

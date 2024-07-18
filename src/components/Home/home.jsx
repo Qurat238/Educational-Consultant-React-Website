@@ -10,6 +10,8 @@ import Testimonial from "../Testimonials/Testimonial";
 import {useNavigate} from "react-router-dom";
 import OurMission from "../About/OurMission";
 import Services from "../Services/Services";
+import Vision from "../Vision/Vision";
+import DestinationComponent from "../Destinations/DestinationComponent";
 
 const Home = () => {
 
@@ -40,6 +42,8 @@ const Home = () => {
       <AboutComponent/>
       <OurMission/>
       <Services/>
+      <Vision/>
+      <DestinationComponent/>
       <Testimonial/>
       <ContactUs/>
       <Blog/>

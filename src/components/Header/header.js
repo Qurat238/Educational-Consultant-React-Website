@@ -28,7 +28,7 @@ const Header = () => {
             <div className='headerlinks'>
                 <ul>
                     <li className='list'><a className='headerlink' href='/'>HOME</a></li>
-                    <li className='list'>
+                    {/* <li className='list'>
                         <a className='headerlink' href='/'>SERVICES</a>
                         <ul className='dropdown'>
                             <li className='list'><a className='headerlink' href='/service/study'>STUDY</a></li>
@@ -51,7 +51,7 @@ const Header = () => {
                             <li className='list'><a className='headerlink' href='/destination/europe'>EUROPE</a></li>
                             <li className='list'><a className='headerlink' href='/destination/turkey'>TURKEY</a></li>
                         </ul>
-                    </li>
+                    </li> */}
                     <li className='list'><a className='headerlink' href='/about'>ABOUT US</a></li>
                     <li className='list'><a className='headerlink' href='/contact'>CONTACT US</a></li>
                 </ul>
@@ -70,7 +70,7 @@ const Header = () => {
                     <img src={logo} alt='logo' className='headerImageSmall'/>
                     <div className='smallScreenLinksContainer'>
                         <div className='smallScreenLink'><a href='/'>HOME</a></div>
-                        <div>
+                        {/* <div>
                             <div className='smallScreenLink'><a href='/'>SERVICES</a></div>
                             <div className='smallScreenSubLinksContainer1'>
                                 <div><a href='/service/study' className='smallScreenSubLink'>STUDY</a></div>
@@ -93,7 +93,7 @@ const Header = () => {
                                 <div><a href='/destination/europe' className='smallScreenSubLink'>EUROPE</a></div>
                                 <div><a href='/destination/turkey' className='smallScreenSubLink'>TURKEY</a></div>
                             </div>
-                        </div>
+                        </div> */}
                         <div className='smallScreenLink2'><a href='/about'>ABOUT US</a></div>
                         <div className='smallScreenLink3'><a href='/contact'>CONTACT US</a></div>
                     </div> 

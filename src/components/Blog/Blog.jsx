@@ -101,7 +101,7 @@ const Blog = () => {
       
         
         <h1 className="blogHeading">BLOGS</h1>
-        <div className='container'>
+        <div className='blogContainerFlex'>
         <button className="leftBlogArrow" onClick={backHandler}>
           <KeyboardArrowLeftIcon className="icon" />
         </button>
