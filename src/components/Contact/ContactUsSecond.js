@@ -8,7 +8,7 @@ const ContactUsSecond = () => {
   return (
     <div className="contactUs">
       <div className="contactUsImageContainer">
-        <img src={contactImage} alt="contactImage" className="contactUsImage" />
+        <img src={contactImage} alt="contact" className="contactUsImage" />
       </div>
       <div className="contactUsContentContainer">
         <h1>Contact Us</h1>

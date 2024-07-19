@@ -9,7 +9,7 @@ const Message = () => {
           <img src={message} alt="message" className="messageImage" />
         </div>
         <div className="aboutMessage">
-          <h1>Message From Founder</h1>
+          <h1>Message From Director</h1>
           <p>
             Dear Students,
             <br />

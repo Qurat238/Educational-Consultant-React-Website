@@ -41,7 +41,7 @@ const ContactUs = () => {
         <h1>Please Feel Free To Contact Us</h1>
         <div className="timing">
           <TimerIcon className="clockIcon" />
-          <h3>Mon - Sun (9:00 AM to 8:00 PM)</h3>
+          <h3>Mon - Sat (9:00 AM to 8:00 PM)</h3>
         </div>
         <p>
           Choosing the right career path can feel overwhelming. Our experienced

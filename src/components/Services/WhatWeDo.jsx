@@ -6,7 +6,7 @@ const WhatWeDo = () => {
   return (
     <div className="whatWeDoContainer">
       <div className="whatWeDoImageContainer">
-        <img src={map} alt="Map Image" />
+        <img src={map} alt="Map" />
       </div>
       <div className="whatWeDoContentContainer">
         <h2>We Deal Around The Globe</h2>

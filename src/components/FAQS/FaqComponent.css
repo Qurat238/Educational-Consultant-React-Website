@@ -18,7 +18,8 @@
     font-size: 1.35rem;
 }
 .fAQContent .heading svg{
-    color: #fff;
+    color: #FF9B42;
+    font-size: 2.5rem;
 }
 .fAQContent .heading svg:hover{
     cursor: pointer;

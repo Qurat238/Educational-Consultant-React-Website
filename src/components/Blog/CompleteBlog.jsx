@@ -257,7 +257,7 @@ const CompleteBlog = () => {
           blog.id === id ? (
             <div className="completeBlogFirstSection">
               <div key={blog.id} className="completeImageContainer">
-                <img src={blog1} alt="Blog Image" className="completeImage" />
+                <img src={blog1} alt="Blog" className="completeImage" />
                 <h1 className="completeImageHeading">{blog.heading}</h1>
               </div>
 
