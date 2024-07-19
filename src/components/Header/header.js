@@ -31,6 +31,11 @@ const Header = () => {
                 HOME
               </a>
             </li>
+            <li className="list">
+              <a className="headerlink" href="#about">
+                ABOUT US
+              </a>
+            </li>
             {/* <li className='list'>
                         <a className='headerlink' href='/'>SERVICES</a>
                         <ul className='dropdown'>
@@ -68,11 +73,6 @@ const Header = () => {
             <li className="list">
               <a className="headerlink" href="#destination">
                 DESTINATIONS
-              </a>
-            </li>
-            <li className="list">
-              <a className="headerlink" href="#about">
-                ABOUT US
               </a>
             </li>
             <li className="list">
