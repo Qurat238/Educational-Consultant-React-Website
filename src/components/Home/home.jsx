@@ -49,11 +49,11 @@ const Home = () => {
       <DestinationComponent/>
       <WhatWeDo/>
       <Testimonial/>
-      <ContactUs/>
       <Message/>
       <Blog/>
       <FAQS/>
       <ContactUsSecond/>
+      <ContactUs/>
       <Footer/>
     </div>
   );
