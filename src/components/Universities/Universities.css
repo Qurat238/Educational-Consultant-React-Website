@@ -1,0 +1,137 @@
+.universitiesContainer{
+    padding: 2rem;
+    padding-bottom: 5rem;
+    width: 100vw;
+    margin-top: 2rem;
+}
+.universitiesContainer > h1{
+    font-weight: 900;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    margin-top: 0;
+    color: #283148;
+    line-height: 1.2;
+    word-spacing: 4px;
+}
+.universitiesText{
+    font-size: 1.35rem;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.universities{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3rem;
+    width: 90%;
+    margin: auto;
+}
+.university{
+    background-color: #283148;
+    padding: 1rem 2rem;
+    width: 40rem;
+    border-radius: 1rem;
+}
+.university > h2{
+    font-weight: 600;
+}
+.university > h2 > a{
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+.universitiesListSection{
+    background-color: #283148;
+    padding: 1rem;
+    margin-top: -3rem;
+    width: 86vw;
+    margin-left: 7vw;
+    display: none;
+    border-radius: 2rem;
+}
+.universitiesListSection > ul{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.universitiesListSection > ul > li{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    border-bottom: 0.3rem solid white;
+    padding: 0.5rem;
+    padding-left: 2rem;
+    margin-bottom: 0.5rem;
+    width: 96%;
+}
+
+
+@media (max-width:1115px) {
+    .universitiesContainer > h1{
+        font-size: 2.3rem;
+    }
+    .universitiesText{
+        font-size: 1.1rem;
+    }
+    .university{
+        font-size: 0.rem;
+    }
+}
+
+@media (max-width:1000px) {
+    .universitiesContainer > h1{
+        font-size: 2rem;
+    }
+    .universitiesText{
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width:890px) {
+    .universitiesContainer > h1{
+        font-size: 1.8rem;
+    }
+    .universitiesText{
+        font-size: 0.9rem;
+    }
+    .university > h2{
+        font-size: 0.9rem;
+    }
+    .universitiesListSection > ul > li{
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width:803px) {
+    .universitiesContainer > h1{
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width:750px) {
+    .university > h2{
+        font-size: 0.8rem;
+    }
+    .universitiesListSection > ul > li{
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width:710px){
+    .universitiesContainer{
+        flex-direction: column;
+    }
+    .universities{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .university{
+        width: 100%;
+    }
+}
+
+

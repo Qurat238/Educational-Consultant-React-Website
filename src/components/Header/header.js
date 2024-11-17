@@ -27,14 +27,12 @@ const Header = () => {
         <div className="headerlinks">
           <ul>
             <li className="list">
-              <a className="headerlink" href="/">
-                HOME
-              </a>
-            </li>
-            <li className="list">
               <a className="headerlink" href="#about">
                 ABOUT US
               </a>
+              <ul className='dropdown'>
+                <li className='list'><a className='headerlink' href='#successStories'>SUCCESS STORIES</a></li>
+              </ul>
             </li>
             {/* <li className='list'>
                         <a className='headerlink' href='/'>SERVICES</a>
@@ -76,6 +74,11 @@ const Header = () => {
               </a>
             </li>
             <li className="list">
+              <a className="headerlink" href="#universities">
+                UNIVERSITIES
+              </a>
+            </li>
+            <li className="list">
               <a className="headerlink" href="#contact">
                 CONTACT US
               </a>
@@ -85,21 +88,20 @@ const Header = () => {
       </div>
 
       <div className="smallScreenPanel">
-        <div onClick={openHandler} className="hamburger">
-          <span></span>
-          <span></span>
-          <span></span>
+        <div className="smallScreenHeader">
+          <img src={logo} alt="logo" className="headerImageSmall" />
+          <div onClick={openHandler} className="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
         </div>
         <div id="sidePanel">
           <button id="close" onClick={closeHandler}>
             <CloseIcon />
           </button>
           <div className="links">
-            <img src={logo} alt="logo" className="headerImageSmall" />
             <div className="smallScreenLinks">
-              <div className="smallScreenLink">
-                <a href="/" onClick={closeHandler}>HOME</a>
-              </div>
               <div className="smallScreenLink">
                 <a href="#about" onClick={closeHandler}>ABOUT US</a>
               </div>
@@ -111,6 +113,12 @@ const Header = () => {
               </div>
               <div className="smallScreenLink">
                 <a href="#destination" onClick={closeHandler}>DESTINATIONS</a>
+              </div>
+              <div className="smallScreenLink">
+                <a href="#universities" onClick={closeHandler}>UNIVERSITIES</a>
+              </div>
+              <div className="smallScreenLink">
+                <a href="#successStories" onClick={closeHandler}>SUCCESS STORIES</a>
               </div>
               <div className="smallScreenLink">
                 <a href="#contact" onClick={closeHandler}>CONTACT US</a>

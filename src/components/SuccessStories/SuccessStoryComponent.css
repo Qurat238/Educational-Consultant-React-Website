@@ -1,0 +1,99 @@
+.successStory{
+    flex: 0 0 32%;
+    margin-top: 3rem;
+    max-width: 35%;
+    height: auto;
+    background-color: #FF9B42;
+    border-radius: 2rem;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.successStoryImageContainer{
+    position: relative;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #d8ece1;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+.graduationImage{
+    width: 9rem;
+    height: 9rem;
+    border-radius: 5rem;
+}
+.congratulationImage{
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+.successStoryContent{
+    padding: 0 1rem;
+    background-color: #FF9B42;
+    min-height: 15rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+.successStoryContent .successStoryUniversity{
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+.successStoryContent p{
+    width: 100%;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+@media (max-width:1115px) {
+    .successStoryContent p{
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width:1075px) {
+    .successStoryContent .successStoryName{
+        font-size: 1.4rem;
+    }
+    .congratulationImage{
+        width: 80%;
+    }
+}
+
+@media (max-width:1000px) {
+    .successStoryContent p{
+        font-size: 0.95rem;
+    }
+    .successStoryImageContainer{
+        height: 13rem;
+    }
+}
+
+@media (max-width:890px) {
+    .testimonial p{
+        font-size: 0.9rem;
+    }
+}
+
+ @media (max-width:880px) {
+    .successStoryImageContainer{
+        height: 17rem;
+    }
+    .successStoryContent{
+        min-height: 13rem;
+    }
+    .successStory{
+        flex: 0 0 48%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width:650px) {
+    .successStory{
+        flex: 0 0 98%;
+        max-width: 98%;
+    }
+}
+

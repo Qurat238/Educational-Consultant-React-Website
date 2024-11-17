@@ -15,6 +15,8 @@ import DestinationComponent from "../Destinations/DestinationComponent";
 import WhatWeDo from "../Services/WhatWeDo";
 import ContactUsSecond from "../Contact/ContactUsSecond";
 import Message from "../Contact/Message";
+import Universites from "../Universities/Universities";
+import SuccessStories from "../SuccessStories/SuccessStories";
 
 const Home = () => {
 
@@ -49,7 +51,9 @@ const Home = () => {
       <DestinationComponent/>
       <WhatWeDo/>
       <Testimonial/>
+      <SuccessStories/>
       <Message/>
+      <Universites/>
       <Blog/>
       <FAQS/>
       <ContactUsSecond/>

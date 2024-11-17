@@ -62,7 +62,9 @@ ul li ul.dropdown1 li{
 }
 ul li ul.dropdown{
     width: 250%;
-    background-color: #FF9B42;
+    /* background-color: #FF9B42; */
+    background-color: #283148;
+    border: 0.1rem solid #FF9B42;
     position: absolute;
     z-index: 999;
     display: none;
@@ -71,19 +73,27 @@ ul li ul.dropdown{
 }
 ul li ul.dropdown1{
     width: 180%;
-    background-color: #FF9B42;
+    /* background-color: #FF9B42; */
+    background-color: #283148;
+    border: 0.1rem solid #FF9B42;
     position: absolute;
     z-index: 999;
     display: none;
     padding: 0;
     margin-top: -0.5rem;
 }
+ul li ul.dropdown a,
+ul li ul.dropdown1 a{
+    color: white;
+}
 ul li ul.dropdown li a:hover{
     background-color: #283148;
+    border: 0.1rem solid #FF9B42;
     color: white;
 }
 ul li ul.dropdown1 li a:hover{
     background-color: #283148;
+    border: 0.1rem solid #FF9B42;
     color: white;
 }
 ul li:hover ul.dropdown{
@@ -126,11 +136,19 @@ ul li:hover ul.dropdown1{
 .hamburger span:nth-child(3) {
     top: 3.2rem;
 }
+.smallScreenHeader{
+    display: flex;
+    background-color: white;
+    padding: 1rem;
+}
 .headerImageSmall{
-    width: 8rem;
+    /* width: 8rem; */
+    width: 5rem;
     position: relative;
-    right: -7rem;
-    top: -3rem;
+    /* right: -7rem;
+    top: -3rem; */
+    /* top: 1rem; */
+    /* left: 0.5rem; */
 }
 #sidePanel {
     width: 100vw;
@@ -149,6 +167,8 @@ ul li:hover ul.dropdown1{
     flex-direction: column;
     margin-left: 5rem;
 }
+
+
 
  /* .smallScreenLinksContainer{
     display: flex;
@@ -176,7 +196,7 @@ ul li:hover ul.dropdown1{
     gap: 3rem;
     margin-top: -2rem !important;
 }
-.smallScreenSubLinksContainer1{
+    .smallScreenSubLinksContainer1{
     margin-left: -1.3rem;
 }
 .smallScreenSubLinksContainer2{
@@ -237,6 +257,12 @@ ul li:hover ul.dropdown1{
     }
 }
 
+@media (max-width:904px) {
+    .headerlink{
+        font-size: 0.85rem;
+    }
+}
+
 @media (max-width:886px) {
     .headerImage{
         width: 5rem;
@@ -246,12 +272,33 @@ ul li:hover ul.dropdown1{
     }
 }
 
-@media (max-width:808px) {
+@media (max-width:850px) {
+    .headerImage{
+        width: 4rem;
+    }
+    .headerlink{
+        font-size: 0.75rem;
+    }
+}
+
+/* @media (max-width:808px) {
     .headerImage{
         width: 3.5rem;
     }
     .headerlink{
         font-size: 0.75rem;
+    }
+} */
+
+@media (max-width:823px) {
+    .headerlink{
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width:797px) {
+    .headerlink{
+        font-size: 0.65rem;
     }
 }
 
@@ -263,7 +310,9 @@ ul li:hover ul.dropdown1{
         display: none;
         border: 3rem solid #283148;
     }
-    
+    .headerlink{
+        font-size: 0.75rem;
+    }
 }
 
 @media (max-width:430px) {
